@@ -1,8 +1,11 @@
+import chapter1.DuckGame;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Running the Main class ....");
 
-        // in this simple project we are going to demonstrate simple system design concepts.
-
+        // Testing Chapter - 1
+        DuckGame duckGame = new DuckGame();
+        duckGame.run();
     }
 }
